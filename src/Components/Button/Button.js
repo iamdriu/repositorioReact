@@ -1,5 +1,5 @@
-const Button = ({ func, label}) => {
-    return <button onClick={func}>{label}</button>
+const Button = ({ func, label, color }) => {
+    return <button onClick={func} style={{ color }}>{label}</button>
 }
 
 export default Button
