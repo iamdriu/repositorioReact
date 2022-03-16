@@ -20,10 +20,10 @@ class ClassCount extends Component {
 
     render() {
         return (
-            <div>
-                <button onClick={this.decrement}>-</button>
+            <div className="navbar navbar-expand-lg navbar-light bg-light">
+                <button onClick={this.decrement}type="button" class="btn btn-light">-</button>
                 <p>{this.state.count}</p>
-                <button onClick={this.increment}>+</button>
+                <button onClick={this.increment} type="button" class="btn btn-light">+</button>
             </div>
         )
     }
