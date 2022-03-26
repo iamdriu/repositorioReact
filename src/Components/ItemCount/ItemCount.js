@@ -29,4 +29,4 @@ class ClassCount extends Component {
     }
 }
 
-export default ClassCount
+export default ItemCount

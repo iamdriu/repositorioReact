@@ -1,5 +1,5 @@
 import CartWidget from '../CartWidget/CarWidget';
-import ClassCount from '../ClassCount/ClassCount';
+import ClassCount from '../ItemCount/ItemCount';
 
 const NavBar = () => {
     return (
