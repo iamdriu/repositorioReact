@@ -16,7 +16,7 @@ const NavBar = () => {
           </div>
         </div>
             <CartWidget />
-            <ClassCount/>
+            <div>0</div>
         </nav>
     )
 }
