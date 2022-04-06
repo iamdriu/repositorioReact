@@ -3,6 +3,8 @@ import ItemCount from './components/ItemCount/ItemCount';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import NavBar from './components/NavBar/NavBar';
 import Card from './components/Card/Card';
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 function App() {
