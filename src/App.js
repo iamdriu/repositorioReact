@@ -23,6 +23,4 @@ function App() {
   );
 }
 
-//React.createElement('Avatar', { className: "Avatar" }, [])
-
 export default App;

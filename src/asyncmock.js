@@ -5,7 +5,7 @@ const products = [
         price: 252350, 
         category: 'celular', 
         img:'https://www.apple.com/newsroom/images/product/iphone/standard/Apple_announce-iphone12pro_10132020.jpg.og.jpg?202108061040', 
-        stock: 25, 
+        stock: 10, 
         description:'Descripcion de Iphone 12'
     },
     { id: 2, 
@@ -13,7 +13,7 @@ const products = [
         price: 135000, 
         category: 'celular', 
         img:'https://cdn.pocket-lint.com/r/s/1200x630/assets/images/155378-phones-review-hands-on-samsung-galaxy-s21-ultra-image1-luae09ici4.JPG', 
-        stock: 16, 
+        stock: 21, 
         description:'Descripcion de Samsung s21'},
     { id: 3, 
         name: 'iPhone 13', 
@@ -31,10 +31,10 @@ const products = [
         description:'Descripcion de Samsung s22'}
 ]
 
-export const getProducts = () => {
+export const getProducts = (category) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(products)
+            category ? resolve(products.filter(prod => prod.category === category)) : resolve(products)
         }, 2000)
     })
 }
