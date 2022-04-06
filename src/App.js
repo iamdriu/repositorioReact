@@ -5,21 +5,24 @@ import NavBar from './components/NavBar/NavBar';
 import Card from './components/Card/Card';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 
 function App() {
-
-  const onAdd = (quantity) => {
-    console.log(quantity)
-  }
-
   return (
     <div className="App">
-      <NavBar />
-      <ItemListContainer greeting={"Próximamente nuestro listado"}/>
-      <ItemCount initial={1} stock={20} onAdd={onAdd}/>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<ItemListContainer greeting={'Listado de Dispositivos'}/>}/>
+          <Route path='/category/:categoryId' element={<ItemListContainer greeting={'Listado de Dispositivos'}/>} />
+          <Route path='/detail/:productId' element={<ItemDetailContainer />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
+
+//React.createElement('Avatar', { className: "Avatar" }, [])
 
 export default App;
