@@ -26,6 +26,24 @@
     justify-content: space-around;
 }
 
+.InfoP {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: green;
+    display: flex;
+    justify-content: space-around;
+}
+
+.InfoN {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
 .ItemImg {
     width: 300px;
     height: 300px;

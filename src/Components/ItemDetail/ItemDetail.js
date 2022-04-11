@@ -20,7 +20,7 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
                 <p className="Info">
                     Descripción: {description}
                 </p>
-                <p className="Info">
+                <p className="InfoP">
                     Precio: {price}
                 </p>
             </section>           

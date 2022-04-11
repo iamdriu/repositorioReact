@@ -25,7 +25,7 @@ const ItemDetailContainer = () => {
     
 
     if(loading) {
-        return <h1>Cargando...</h1>
+        return <h1>Cargando. Por favor, espere...</h1>
     }
 
     return(
