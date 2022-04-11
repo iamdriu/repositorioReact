@@ -14,7 +14,8 @@ const Item = ({ id, name, img, price}) => {
                 <h3 className='Info'>Precio: ${price}</h3>
             </section>
             <footer className='ItemFooter'>
-                <Link to={`/detail/${id}`} className='Option'>Ver detalle</Link>
+            <button type="button" class="btn btn-outline-dark"><Link to={`/detail/${id}`} className='Option'>Ver detalle</Link>
+            </button>
             </footer>
         </article>
     )
