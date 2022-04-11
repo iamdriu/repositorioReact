@@ -39,7 +39,7 @@ const products = [
         description:'Apple Chip M1 Pro o M1 Max para un gran salto en el rendimiento de CPU, GPU y aprendizaje automático La CPU de hasta 10 núcleos ofrece un rendimiento hasta 3.7 veces más rápido para volar a través de flujos de trabajo profesionales más rápido que nunca GPU de hasta 32 núcleos con un rendimiento hasta 13 veces más rápido para aplicaciones y juegos de gráficos intensivos Motor neural de 16 núcleos para un rendimiento de aprendizaje automático hasta 11 veces más rápido Mayor duración de la batería, hasta 17 horas Hasta 64 GB de memoria unificada para que todo lo que hagas sea rápido y fluido Hasta 8 TB de almacenamiento SSD superrápido lanza aplicaciones y abre archivos en un instante Impresionante pantalla Liquid Retina XDR de 14 pulgadas con rango dinámico extremo y relación de contraste Cámara FaceTime HD de 1080p con procesador de señal de imagen avanzado para videollamadas más nítidas Sistema de sonido de seis altavoces con woofers con cancelación de fuerza Mostrar más'},
 
     { id: 6, 
-        name: 'ThinkBook 13s Gen 2', 
+        name: 'ThinkBook 13s Gen2', 
         price: 215000, 
         category: 'notebook', 
         img:'https://www.lenovo.com/medias/lenovo-laptop-thinkbook-13s-gen-2-intel-hero.png?context=bWFzdGVyfHJvb3R8ODEzMDl8aW1hZ2UvcG5nfGg0Yi9oNDEvMTExODE0MzAxNzc4MjIucG5nfGUwZmQwYmNhMDYwMDIxYjBiOTU0ZDQwZTAxZDBiOWFhZDEyNzk4NWU5YzZjOTMxNDY2NjlhOWVlOWRjMWNiYjM', 

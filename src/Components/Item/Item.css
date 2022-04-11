@@ -35,3 +35,26 @@
 .ItemFooter {
     text-decoration:none;
 }
+
+.Option {
+    text-decoration: none;
+    border-radius: 25;
+    width: auto;
+    padding: 3px;
+    font-size: 16px;
+    background: rgb(186, 186, 186);
+    border-radius: 8px;
+    flex: none;
+    display: flex;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+  }
