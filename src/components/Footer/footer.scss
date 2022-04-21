@@ -1,0 +1,20 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+    p {
+        color: grey;
+    }
+    .footer__links {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        color: grey;
+    }
+}
